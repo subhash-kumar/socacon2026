@@ -5644,7 +5644,7 @@ ul {
 .about-two {
   position: relative;
   display: block;
-  padding: 120px 0 240px;
+  padding: 120px 0 100px;
   z-index: 1;
 }
 
@@ -6346,7 +6346,7 @@ ul {
   position: relative;
   display: block;
   counter-reset: count;
-  padding: 0 0 90px;
+  padding: 0 0 40px;
   z-index: 1;
 }
 
@@ -6466,8 +6466,8 @@ ul {
 }
 
 .process-one__title {
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .process-one__text {
@@ -6640,11 +6640,11 @@ ul {
 }
 
 .video-two__title {
-  font-size: 50px;
-  font-weight: 600;
-  color: var(--futxo-white);
-  line-height: 60px;
-  margin-top: 69px;
+  font-size: 32px;
+    font-weight: 600;
+    color: var(--futxo-white);
+    line-height: 38px;
+    margin-top: 13px;
 }
 
 /*--------------------------------------------------------------
@@ -9449,7 +9449,7 @@ ul {
 .page-header {
   position: relative;
   display: block;
-  padding: 228px 0 233px;
+  padding: 228px 0 150px;
   background-color: #090909;
   overflow: hidden;
   z-index: 1;
