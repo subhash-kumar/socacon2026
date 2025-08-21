@@ -3093,7 +3093,7 @@ ul {
 }
 
 .main-slider-three .item {
-  background-color: #090909;
+  /* background-color: #090909; */
   position: relative;
   padding-top: 244px;
   padding-bottom: 180px;
@@ -3110,7 +3110,8 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   mix-blend-mode: luminosity;
-  opacity: .10;
+  /* opacity: .10; */
+  opacity: .8;
   z-index: 1;
 }
 
@@ -7283,7 +7284,7 @@ ul {
 .about-three__img {
   position: relative;
   display: block;
-  background-color: #090909;
+  /* background-color: #090909; */
 }
 
 .about-three__img::before {
