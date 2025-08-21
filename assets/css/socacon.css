@@ -317,7 +317,7 @@ ul {
   margin: 0;
   color: var(--futxo-black);
   font-size: 50px;
-  line-height: 60px;
+  line-height: 50px;
   font-weight: 600;
   margin-top: 7px;
 }
@@ -5402,7 +5402,7 @@ ul {
 }
 
 .footer-widget__title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 34px;
   color: var(--futxo-white);
@@ -5424,7 +5424,7 @@ ul {
 }
 
 .footer-widget__explore-list li+li {
-  margin-top: 26px;
+  margin-top: 7px;
 }
 
 .footer-widget__explore-list li .icon {
