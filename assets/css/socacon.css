@@ -1,6 +1,6 @@
 :root {
-  --futxo-font: 'Manrope', sans-serif;
-  --futxo-font-two: 'Syne', sans-serif;
+  --futxo-font: "Poppins", sans-serif;
+  --futxo-font-two: "Poppins", sans-serif;;
   --futxo-reey-font: 'reeyregular';
   --futxo-gray: #878c8f;
   --futxo-gray-rgb: 135, 140, 143;
@@ -3149,7 +3149,8 @@ ul {
 }
 
 .main-slider-three__img img {
-  width: auto !important;
+  width: 600px !important;
+  height: 600px !important;
   border-radius: 50%;
   mix-blend-mode: normal;
 }
@@ -3200,17 +3201,21 @@ ul {
 .main-slider-three__title {
   position: relative;
   display: block;
-  font-size: 100px;
+  /* font-size: 100px; */
+  font-size: 60px;
   color: var(--futxo-white);
   font-weight: 600;
-  line-height: 100px;
+  line-height: 60px;
+  /* line-height: 1.7; */
   text-transform: capitalize;
-  margin-top: 31px;
-  margin-bottom: 37px;
+  /* margin-top: 31px; */
+  margin-top: 45px;
+  /* margin-bottom: 37px; */
+    margin-bottom: 40px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transform: translateY(-120px);
-  transform: translateY(-120px);
+  -webkit-transform: translateY(-80px);
+  transform: translateY(-80px);
   -webkit-transition-delay: 1000ms;
   transition-delay: 1000ms;
   -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
