@@ -3138,7 +3138,7 @@ ul {
 
 .main-slider-three__img {
   position: absolute;
-  bottom: 80px;
+  bottom: 10px;
   right: 260px;
   background-color: #090909;
   border-radius: 50%;
@@ -3151,7 +3151,7 @@ ul {
 .main-slider-three__img img {
   width: auto !important;
   border-radius: 50%;
-  mix-blend-mode: luminosity;
+  mix-blend-mode: normal;
 }
 
 .active .main-slider-three__img {
