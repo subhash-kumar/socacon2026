@@ -4482,7 +4482,7 @@ ul {
 .team-one {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 69px 0 30px;
   z-index: 1;
 }
 
@@ -4634,7 +4634,7 @@ ul {
 .team-one__content-inner {
   position: relative;
   display: block;
-  padding: 20px 40px 18px;
+  padding: 10px;
   overflow: hidden;
   z-index: 1;
 }
@@ -4644,9 +4644,9 @@ ul {
 }
 
 .team-one__name {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 24px;
 }
 
 .team-one__name a {
@@ -5281,7 +5281,7 @@ ul {
 .site-footer__top {
   position: relative;
   display: block;
-  padding: 102px 0 95px;
+  padding: 50px 0 20px;
 }
 
 .footer-widget__about {
@@ -5618,9 +5618,10 @@ ul {
 .site-footer__bottom-inner {
   position: relative;
   display: block;
-  padding: 32px 0 35px;
+  padding: 10px 0 10px;
   border-top: 2px solid rgba(var(--futxo-white-rgb), .10);
   text-align: center;
+  color: #fff;
 }
 
 .site-footer__bottom-text {
@@ -7424,7 +7425,7 @@ ul {
 }
 
 .services-three .section-title {
-  margin-bottom: 56px;
+  margin-bottom: 25px;
 }
 
 .services-three .section-title__title {
@@ -7437,6 +7438,7 @@ ul {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
   margin-bottom: 30px;
+  border-radius: 20px;
 }
 
 .services-three__img {
@@ -7446,6 +7448,7 @@ ul {
 
 .services-three__img img {
   width: 100%;
+  border-radius: 20px;
 }
 
 .services-three__icon {
@@ -11815,7 +11818,7 @@ ul {
 .team-carousel-page {
   position: relative;
   display: block;
-  padding: 120px 0 170px;
+  padding: 70px 0 70px;
 }
 
 .team-carousel-page .team-two__single {
@@ -11980,7 +11983,7 @@ ul {
 
   .important-section {
       background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') no-repeat center center/cover;
-      padding: 60px 20px;
+      padding: 35px 20px;
       position: relative;
     }
     .important-section::before {
