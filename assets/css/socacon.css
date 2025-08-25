@@ -7934,13 +7934,13 @@ ul {
   position: absolute;
   bottom: 0;
   right: 0;
-  left: 75px;
+  left: 0px;
   display: flex;
   align-items: center;
   background-color: var(--futxo-base);
   border-top-right-radius: 6px;
   border-bottom-left-radius: 6px;
-  padding: 36px 40px 36px;
+  padding: 10px 10px 10px;
   padding-right: 20px;
 }
 
@@ -8295,18 +8295,18 @@ ul {
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 110px;
+  right: 30px;
   background-color: var(--futxo-white);
   text-align: center;
-  padding: 22px 0 23px;
+  padding: 10px 0 16px;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
   z-index: 2;
 }
 
 .team-three__title {
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 600;
-  line-height: 34px;
+  line-height: 27px;
 }
 
 .team-three__title a {
