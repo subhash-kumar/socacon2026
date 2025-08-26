@@ -215,7 +215,6 @@ ul {
 .thm-btn {
   position: relative;
   display: inline-block;
-  -webkit-appearance: none;
   outline: none !important;
   background-color: var(--futxo-base);
   color: var(--futxo-white);
@@ -287,10 +286,10 @@ ul {
 .section-title__tagline {
   position: relative;
   display: inline-block;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 20px;
+  line-height: 30px !important;
+  font-weight: 800 !important;
   color: var(--futxo-base);
-  font-weight: 400;
   letter-spacing: 0.1em;
 }
 
