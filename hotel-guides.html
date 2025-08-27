@@ -4,144 +4,114 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hotel Guides</title>
-    <!-- favicons Icons -->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" /> -->
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Socacon 2026 " />
+    <title>SOCACON 2026 - World Congress of Clinical Anatomists</title>
+    <meta name="description" content="World Congress of Clinical Anatomists - SOCACON 2026, April 2-4, Jaipur, India" />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
-    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
-    <link rel="stylesheet" href="assets/vendors/futxo-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/socacon.css" />
-    <link rel="stylesheet" href="assets/css/socacon-responsive.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+    <!-- Bootstrap JS (Required for Carousel) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/custom.css" />
+    
 </head>
 
 <body class="custom-cursor">
 
     <div class="page-wrapper">
-        <header class="main-header-three">
-            <nav class="main-menu main-menu-three">
-                <div class="main-menu-three__wrapper">
-                    <div class="main-menu-three__wrapper-inner">
-                        <div class="main-menu-three__left">
-                            <div class="main-menu-three__logo">
-                                <!-- <a href="index.html"><img src="assets/images/resources/logo.jpg" width="30px" alt=""></a> -->
-                                <a href="index.html" class="text-white fa-2x">SOCACON 2026</a>
-                            </div>
-                            <div class="main-menu-three__main-menu-box">
-                                <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-                                <ul class="main-menu__list">
-                                    <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="about.html">About SOCA</a>
-                                    </li>
-                                    <li>
-                                        <a href="committees.html">Committees</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="registration.html">Registration</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="registration-and-payment.html">Registration &amp; Payment</a></li>
-                                            <li><a href="#">Visa Information</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/images/socaconlogo.png" alt="SOCACON 2026 Logo" class="logo mt-2">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About SOCA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="committees.html">Committees</a>
+        </li>
 
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#">Activities & Attractions</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="hotel-guides.html">Hotel Guides</a></li>
-                                            <li><a href="transport-information.html">Transport Information</a></li>
-                                            <li><a href="local-attractions.html">Local attractions</a></li>
-                                        </ul>
-                                    </li>
+        <!-- Dropdown with arrow -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" role="button">
+            Registration 
+            
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="registration-and-payment.html">Registration & Payment</a></li>
+            <li><a class="dropdown-item" href="#">Visa Information</a></li>
+          </ul>
+        </li>
 
-                                    <li>
-                                        <a href="contact.html">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- <div class="main-menu-three__right">
-                            <div class="main-menu-three__search-box">
-                                <a href="#"
-                                    class="main-menu-three__search search-toggler icon-search"><span>Search...</span></a>
-                            </div>
-                            <div class="main-menu-three__call">
-                                <div class="main-menu-three__call-icon">
-                                    <span class="icon-telephone-1"></span>
-                                </div>
-                                <div class="main-menu-three__call-content">
-                                    <p class="main-menu-three__call-sub-title">Call Anytime</p>
-                                    <h5 class="main-menu-three__call-number"><a href="tel:9212340800">+92 (1234)
-                                            0800</a>
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="main-menu-three__nav-sidebar-icon">
-                                <a class="navSidebar-button" href="#">
-                                    <span class="icon-menu"></span>
-                                </a>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-            </nav>
-        </header>
+        <!-- Dropdown with arrow -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown2" role="button">
+            Activities & Attractions
+            
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <li><a class="dropdown-item" href="hotel-guides.html">Hotel Guides</a></li>
+            <li><a class="dropdown-item" href="transport-information.html">Transport Information</a></li>
+            <li><a class="dropdown-item" href="local-attractions.html">Local attractions</a></li>
+          </ul>
+        </li>
 
-        <div class="stricky-header stricked-menu main-menu main-menu-two">
-            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
-        </div><!-- /.stricky-header -->
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-        <!--Page Header Start-->
-        <section class="page-header">
-            <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/slide01.webp);">
-            </div>
-            <!-- <div class="page-header__shape-1"
-                style="background-image: url(assets/images/shapes/page-header-shape-1.jpg);"></div> -->
-            <!-- <div class="page-header__shape-2">
-                <img src="assets/images/shapes/page-header-shape-2.png" alt="">
-            </div> -->
-            <div class="container">
-                <div class="page-header__inner">
-                    <h2>About Us</h2>
-                    <div class="thm-breadcrumb__box">
-                        <ul class="thm-breadcrumb list-unstyled">
-                            <li><a href="index.html">Home</a></li>
-                            <li><span>-</span></li>
-                            <li>Hotel Guides</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section class="hero-section d-flex align-items-center text-center" 
+         style="background-image: url('assets/images/backgrounds/slide01.webp'); 
+                background-size: cover; 
+                background-position: center; 
+                height: 50vh; 
+                position: relative;">
+
+  <!-- Dark overlay -->
+  <div class="overlay" style="position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5);"></div>
+
+  <div class="container position-relative">
+    <div class="hero-content text-white">
+      <h1 class="display-4 fw-bold">Hotel Guide</h1>
+      <p class="lead mb-4">We are committed to excellence and innovation.</p>
+      
+      <!-- Breadcrumb -->
+      <div class="thm-breadcrumb__box mb-4">
+        <ul class="thm-breadcrumb list-unstyled d-flex justify-content-center">
+          <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+          <li class="mx-2 text-white">-</li>
+          <li class="text-white">Hotel Guide</li>
+        </ul>
+      </div>
+
+      <!-- Call to Action Button -->
+      <a href="contact.html" class="btn btn-danger btn-lg px-4">Contact Us</a>
+    </div>
+  </div>
+</section>
         <!--Page Header End-->
 
         <!--About Two Start -->
@@ -509,265 +479,98 @@
   </style>
 
 
-        <!--Site Footer Start-->
-        <footer class="site-footer">
-            <div class="site-footer__bg float-bob-y"
-                style="background-image: url(assets/images/shapes/site-footer-shape-2.png);">
-            </div>
-            <div class="site-footer__shape-1 float-bob-x"
-                style="background-image: url(assets/images/shapes/site-footer-shape-1.png);"></div>
-            <div class="site-footer__top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="footer-widget__column footer-widget__about">
-                                <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">Conference Secretariat SOCACON 2025</h3>
-                                </div>
-
-                                <ul class="footer-widget__explore-list list-unstyled">
-                                    <li>
-
-                                        <div class="text">
-                                            <p><a href="#">Postgraduate Department of Anatomy</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-
-                                        <div class="text">
-                                            <p><a href="#">NIMS Medical College Jaipur</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-telephone"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><a href="tel:+910000000000">+91 0000000000 (Organizing Secretary)</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-envelope"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><a
-                                                    href="mailto:socacon2026@nimsuniversity.org">socacon2026@nimsuniversity.org</a>
-                                            </p>
-                                        </div>
-                                    </li>
-
-                                </ul>
-                                <div class="site-footer__social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                            <div class="footer-widget__column footer-widget__explore">
-                                <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">Quick Links</h3>
-                                </div>
-                                <ul class="footer-widget__explore-list list-unstyled">
-                                    <li>
-
-                                        <div class="text">
-                                            <p><a href="index.html">Home</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-
-                                        <div class="text">
-                                            <p><a href="about.html">AboutSOCA</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-
-                                        <div class="text">
-                                            <p><a href="committees.html">Committees</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-
-                                        <div class="text">
-                                            <p><a href="#">Reference</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-
-                                        <div class="text">
-                                            <p><a href="registration.html">Registration</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-
-                                        <div class="text">
-                                            <p><a href="#">Travel Guide</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-
-                                        <div class="text">
-                                            <p><a href="#">ContactUs</a></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <!-- <div class="footer-widget__open-hour">
-                                    <h4 class="footer-widget__open-hour-title">Open Hours</h4>
-                                    <p class="footer-widget__open-hour-text">Mon – Sat: 8:00 am to 6:00 pm
-                                        <br> Sunday: Closed</p>
-                                </div> -->
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="footer-widget__column footer-widget__portfolio">
-                                <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">For Bookings & Tour Packages</h3>
-                                </div>
-                                <ul class="footer-widget__explore-list list-unstyled">
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-envelope"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-map"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>30 Commercial Road
-                                                <br> Fratton, Australia
-                                            </p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                            <div class="footer-widget__column footer-widget__contact">
-                                <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">Contact</h3>
-                                </div>
-                                <p class="footer-widget__contact-text">Subscribe our newsletter to get our latest update
-                                    & news.</p>
-                                <form class="footer-widget__contact-form mc-form" data-url="MC_FORM_URL"
-                                    novalidate="novalidate">
-                                    <div class="footer-widget__contact-form-input-box">
-                                        <input type="email" placeholder="Email address" name="EMAIL">
-                                        <button type="submit" class="footer-widget__contact-btn"><span
-                                                class="fas fa-paper-plane"></span></button>
-                                    </div>
-                                </form>
-                                <div class="mc-form__response"></div>
-                            </div>
-                        </div>
+           <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="footer-title">SOCACON 2026</h4>
+                    <p>World Congress of Clinical Anatomists<br>April 2-4, 2026<br>Jaipur, Rajasthan, India</p>
+                    
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>socacon2026@nimsuniversity.org</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+91 94149 82408 (Organising Secretary)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Department of Anatomy<br>National Institute of Medical Sciences and Research<br>Jaipur, Rajasthan, India</span>
+                        </li>
+                    </ul>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="site-footer__bottom">
-                <div class="container">
-                    <div class="site-footer__bottom-inner">
-                        <p class="site-footer__bottom-text">© All Copyright 2026</p>
-                    </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About SOCA</a></li>
+                        <li><a href="committees.html">Committees</a></li>
+                        <li><a href="registration.html">Registration</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h4 class="footer-title">Activities & Attractions</h4>
+                    <ul class="footer-links">
+                        <li><a href="hotel-guides.html">Hotel Guides</a></li>
+                        <li><a href="transport-information.html">Transport Information</a></li>
+                        <li><a href="local-attractions.html">Local Attractions</a></li>
+                        <li><a href="#">Visa Information</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3">
+                    <h4 class="footer-title">Stay Updated</h4>
+                    <p>Subscribe to our newsletter for the latest updates about SOCACON 2026.</p>
+                    
+                    <form class="mt-3">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email address" aria-label="Your email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </footer>
-        <!--Site Footer End-->
-
-
-    </div><!-- /.page-wrapper -->
-
-
-    <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
-        <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-
-            <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="115"
-                        alt="" /></a>
+            
+            <div class="copyright">
+                <p>&copy; 2026 SOCACON. All Rights Reserved.</p>
             </div>
-            <!-- /.logo-box -->
-            <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-
-            <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@Futxo.com</a>
-                </li>
-                <li>
-                    <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
-                </li>
-            </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__top">
-                <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div><!-- /.mobile-nav__social -->
-            </div><!-- /.mobile-nav__top -->
-
-
-
         </div>
-        <!-- /.mobile-nav__content -->
-    </div>
-    <!-- /.mobile-nav__wrapper -->
+    </footer>
 
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form action="#">
-                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="thm-btn">
-                    <i class="icon-search"></i>
-                </button>
-            </form>
-        </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
-
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="icon-right-arrow"></i></a>
-
-
-    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/odometer/odometer.min.js"></script>
-    <script src="assets/vendors/swiper/swiper.min.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
-    <script src="assets/vendors/sidebar-content/jquery-sidebar-content.js"></script>
-
-
-
-
-    <!-- template js -->
-    <script src="assets/js/futxo.js"></script>
+  
+  
+    <!-- Custom JS -->
+    <script>
+        // Simple smooth scroll functionality
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
-
 </html>

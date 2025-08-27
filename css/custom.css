@@ -603,3 +603,18 @@
   margin-top: 0; 
 }
 
+.title-underline{ width:90px; height:4px; background:#e53935; border-radius:999px; }
+  .cat-title{ font-size:1.5rem; font-weight:700; margin-bottom:1.2rem; position:relative; display:inline-block; }
+  .cat-title::after{ content:""; display:block; width:60px; height:3px; background:#e53935; margin:0.4rem auto 0; border-radius:999px; }
+
+  .member-card{ background:#fff; border-radius:18px; padding:22px 16px 18px; height:100%; }
+  .member-photo{ width:200px; height:200px; border-radius:50%; background:#fff; box-shadow:0 10px 30px rgba(0,0,0,.08); display:flex; align-items:center; justify-content:center; overflow:hidden; }
+  .member-photo img{ width:92%; height:92%; border-radius:50%; object-fit:contain; background:#f7f7f7; }
+
+  .member-name{ font-size:1.2rem; font-weight:700; margin:18px 0 6px; color:#212529; }
+  .member-role{ font-weight:700; color:#e53935; margin-bottom:10px; }
+  .member-meta{ font-size:.95rem; color:#6c757d; line-height:1.3; }
+
+  @media (max-width: 767.98px){
+    .member-photo{ width:170px; height:170px; }
+  }
